@@ -3,19 +3,22 @@
     font-family: "DejaVu Sans", sans-serif;
 }
 
+
+.fontsame {
+    font-size: 15px;    
+}
+
 #second {
     color: #0000ff;
     font-size: 36px;
     
 }
 
-#second,
-#fourth {
+.verdana {
     font-family: "Verdana", sans-serif;
 }
 
-#third,
-#fourth {
+.samefont {
     font-size: 24px;
 }
 
