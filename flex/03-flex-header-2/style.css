@@ -41,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   margin-right: 8px;
+  gap: 16px;
 }
 
 button {
