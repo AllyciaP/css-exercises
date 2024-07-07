@@ -33,11 +33,13 @@ body {
 .left-side {
   display: flex;
   align-items: center;
+  margin-left: 8px;
 }
 
 .right-side {
   display: flex;
   align-items: center;
+  margin-right: 8px;
 }
 
 button {
