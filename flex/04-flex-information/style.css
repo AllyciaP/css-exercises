@@ -12,6 +12,9 @@ img {
   /* column because stacked on top of each other */
   flex-direction: column;
   align-items: center;
+
+  /* gap between title div and plant div*/
+  gap: 32px;
 }
 
 .title {
@@ -22,6 +25,8 @@ img {
 .plant {
   display: flex;
   /* flex-direction is row by default */
+  gap: 52px;
+
 }
 
 .item {
