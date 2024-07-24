@@ -7,19 +7,34 @@ img {
   height: 100px;
 }
 .container {
+  display: flex;
 
+  /* column because stacked on top of each other */
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
 }
-.plant {
 
+.plant {
+  display: flex;
+  /* flex-direction is row by default */
 }
 
 .item {
-  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  /* centers images horizontally */
+  align-items: center;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
