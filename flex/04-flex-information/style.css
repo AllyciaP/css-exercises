@@ -26,13 +26,18 @@ img {
   display: flex;
   /* flex-direction is row by default */
   gap: 52px;
-
+  flex-wrap: wrap;
 }
 
 .item {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+
+  /* makes width of each item 200 pixels wide */
+  width: 200px;
+  
+  /* container grows and shrinks evenly within width */
+  flex: 1 1 auto;
 
   /* centers images horizontally */
   align-items: center;
