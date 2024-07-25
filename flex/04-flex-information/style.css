@@ -32,12 +32,9 @@ img {
 .item {
   display: flex;
   flex-direction: column;
-
-  /* makes width of each item 200 pixels wide */
-  width: 200px;
   
   /* container grows and shrinks evenly within width */
-  flex: 1 1 auto;
+  flex: 1 1 200px;
 
   /* centers images horizontally */
   align-items: center;
