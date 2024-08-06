@@ -51,6 +51,9 @@ body {
 
   /* to make gap between header and text*/
   gap: 9px;
+
+  /* to not flatten icon*/
+  flex: 2 1 0;
 }
 
 .header {
