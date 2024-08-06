@@ -28,12 +28,15 @@ input {
 .full-page {
   display: flex;
   flex-direction: column;
+  
 }
 
 .header {
   display: flex;
   flex-direction: row;
 
+  /* to space out right and left links*/
+  justify-content: space-between;
 }
 
 .left-links {
@@ -56,7 +59,8 @@ ul {
 .content {
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -74,4 +78,7 @@ ul {
 .footer {
   display: flex;
   flex-direction: row;
+
+  /* to space out right and left links*/
+  justify-content: space-between;
 }
