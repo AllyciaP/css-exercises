@@ -26,22 +26,36 @@ input {
 }
 
 .full-page {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
 
 }
 
 .left-links {
-
+  display: flex;
+  flex-direction: row;
+  
 }
 
 .right-links {
+  display: flex;
+  flex-direction: row;
 
 }
 
+ul {
+  /* from https://www.shecodes.io/athena/95920-how-to-remove-bullet-points-in-css#:~:text=To%20remove%20bullet%20points%2C%20you,to%20remove%20the%20bullet%20points.&text=This%20CSS%20rule%20targets%20all%20ul%20elements%20and%20removes%20the%20bullet%20points.*/
+  list-style: none;
+}
+
 .content {
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -58,5 +72,6 @@ input {
 }
 
 .footer {
-  
+  display: flex;
+  flex-direction: row;
 }
