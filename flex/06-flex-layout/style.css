@@ -16,6 +16,12 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /* makde smaller font*/
+  font-size: 19px;
+
+  padding: 0 25px 0 25px;
+
 }
 
 input {
@@ -37,41 +43,67 @@ input {
 
   /* to space out right and left links*/
   justify-content: space-between;
+  align-items: center;
+
+  /* to make links closer to top of page*/
+  margin-top: -12px;
 }
 
 .left-links {
   display: flex;
   flex-direction: row;
-  
+
+  /* to make space between links*/
+  gap: 18px;
 }
 
 .right-links {
   display: flex;
   flex-direction: row;
 
+  gap: 18px;
+
 }
 
 ul {
   /* from https://www.shecodes.io/athena/95920-how-to-remove-bullet-points-in-css#:~:text=To%20remove%20bullet%20points%2C%20you,to%20remove%20the%20bullet%20points.&text=This%20CSS%20rule%20targets%20all%20ul%20elements%20and%20removes%20the%20bullet%20points.*/
   list-style: none;
+
+  /* to even out space from edge of page to links*/
+  padding-right: 20px;
+  padding-left: 20px;
+
+  font-size: 19px;
+
+  /* to delete underline in list*/
+  list-style-type: none;
+  
 }
+
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  /* to increase space between content and links in header and footer*/
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
 
-.logo {
-
-}
 
 .input {
+  /* for space*/
+  margin-top: 9px;
 
 }
 
 .buttons {
+ 
+  /* for space*/
+  margin-top: 9px;
+
 
 }
 
@@ -81,4 +113,10 @@ ul {
 
   /* to space out right and left links*/
   justify-content: space-between;
+
+
+  /* background color*/
+  background-color: #eeeeee;
+
+
 }
