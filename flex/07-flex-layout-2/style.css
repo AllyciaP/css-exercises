@@ -4,26 +4,79 @@ body {
   min-height: 100vh;
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+
+  font-size: 32px;
+  font-weight: 900;
+
+  /* flex properties to center text vertically */
+  display: flex;
+  align-items: center;
+  
+  /* to add 16px from edge */
+  padding-left: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+
+
 }
 
+/* contains sidebar and card divs*/
+.main {
+  /* to place items horizontally */
+  display: flex;
+
+  flex-direction: row;
+}
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
+  /* to keep from shrinking*/
+  flex-shrink: 0;
+  
+  padding: 16px;
+}
+
+/* contains all card items*/
+.all-cards {
+  display: flex;
+  flex-direction:  row;
+  /* to give padding around cards */
+  padding: 48px;
+
+  /* to wrap cards in section*/
+  flex-wrap: wrap;
+
+
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+
+  /* to keep cards in space */
+  flex: 1 1 0;
+  
+  /* to give space between each card*/
+  margin: 24px;
+
+  font-size: 24px;;
+ 
 }
