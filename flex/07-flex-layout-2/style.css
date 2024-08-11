@@ -2,12 +2,14 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+
+
 }
 
 .layout {
   display: flex;
   flex-direction: column;
- 
+
 
 }
 
@@ -28,11 +30,16 @@ body {
 }
 
 .footer {
+  display: flex;
+  flex-direction: row;
+
+  /* to center content*/
+  justify-content: center;
+  align-items: center;
+
   height: 72px;
   background: #eee;
   color: darkmagenta;
-
-
 }
 
 /* contains sidebar and card divs*/
@@ -41,6 +48,13 @@ body {
   display: flex;
 
   flex-direction: row;
+
+  /* to push footer to bottom???*/
+  /*height: 800px;*/
+
+  
+
+
 }
 .sidebar {
   width: 300px;
@@ -50,7 +64,21 @@ body {
   /* to keep from shrinking*/
   flex-shrink: 0;
   
+  font-size: 20px;
+}
+
+ul {
+  /* to place 16px from edge*/
   padding: 16px;
+
+  /* for no bullet points*/
+  list-style: none;
+
+  
+}
+
+li {
+  color: white;
 }
 
 /* contains all card items*/
@@ -77,6 +105,6 @@ body {
   /* to give space between each card*/
   margin: 24px;
 
-  font-size: 24px;;
+  font-size: 16px;
  
 }
