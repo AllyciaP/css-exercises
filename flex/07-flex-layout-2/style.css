@@ -115,7 +115,9 @@ li {
   padding-right: 55px;
   padding-top: 25px;
   
+  /* to keep card's shape (suggested from TOP discord search)*/
   width: 30%;
+
   height: 400px;
 
   
