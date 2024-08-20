@@ -3,7 +3,7 @@ body {
   margin: 0;
   min-height: 100vh;
 
-
+  height: 900px;  
 }
 
 .layout {
@@ -52,7 +52,7 @@ body {
   /* to push footer to bottom???*/
   /*height: 800px;*/
 
-  
+  flex-shrink: 0;
 
 
 }
@@ -64,7 +64,7 @@ body {
   /* to keep from shrinking*/
   flex-shrink: 0;
   
-  font-size: 20px;
+  font-size: 26px;
 }
 
 ul {
@@ -85,13 +85,14 @@ li {
 .all-cards {
   display: flex;
   flex-direction:  row;
+
   /* to give padding around cards */
   padding: 48px;
 
   /* to wrap cards in section*/
   flex-wrap: wrap;
-
-
+ 
+  
 }
 
 .card {
@@ -99,12 +100,23 @@ li {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 
+  display: flex;
+  flex-direction: column;
+
   /* to keep cards in space */
-  flex: 1 1 0;
+  flex: 1 1 auto;
   
   /* to give space between each card*/
-  margin: 24px;
+  margin: 19px;
 
-  font-size: 16px;
- 
+  font-size: 22px;
+  
+  padding-left: 15px;
+  padding-right: 55px;
+  padding-top: 25px;
+  
+  width: 30%;
+  height: 400px;
+
+  
 }
